@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href=/bootstrap/css/bootstrap.min.css>
+        <link rel="stylesheet" type="text/css" href=/bootstrap/css/bootstrap-grid.min.css>
+        <link rel="stylesheet" type="text/css" href=/bootstrap/css/bootstrap-reboot.min.css>
+        <link rel="stylesheet" type="text/css" href=/bootstrap/js/bootstrap.bundle.min.js>
+        <link rel="stylesheet" type="text/css" href=/bootstrap/js/bootstrap.min.js>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="/libraries/p5.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-inverse">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><img id="logo" src="/images/VORTEX.jpg" width="50"></a>
+                  <a class="navbar-brand" id="vortex" href="#">VORTEX</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="index.html">STREAM</a></li>
+                    <li class="active"><a href="administration.html">ADMINISTRATION</a></li>
+                    <li><a href="forum.html">FORUM</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <div class="container" id="main-flex">
+                <aside class="float-left">
+                    <div class="title">DISCOVER</div>
+                    <div class="list-items">
+                       <ul>
+                        <a class="list-links" href="publicprofile.html"><li><p class="active"><span class="glyphicon glyphicon-user"></span> Public Profile</p></li></a>
+                        <a href="/administration.html"><li><p><span class="glyphicon glyphicon-user"></span> Private Diary</p></li></a>
+                        <a class="list-links" href="#"><li><p><span class="glyphicon glyphicon-picture"></span> Online Gallery</p></li></a>
+                        <a class="list-links" href="#"><li><p><span class="glyphicon glyphicon-tasks"></span> Task Manager</p></li></a>
+                        <a class="list-links" href="#"><li><p><span class="glyphicon glyphicon-cloud-upload"></span> File Sharing</p></li></a>
+                        <a class="list-links" href="#"><li><p><span class="glyphicon glyphicon-gbp"></span> Money Management</p></li></a>
+                        <a class="list-links" href="#"><li><p><span class="glyphicon glyphicon-map-marker"></span> Travel</p></li></a>
+                        
+                        
+                        <a class="list-links" href="#"><li><p><span class="glyphicon glyphicon-globe"></span> News</p></li></a>
+                        <a class="list-links" href="#"><li><p><span class="glyphicon glyphicon-stats"></span> Statistics</p></li></a>
+                        <a class="list-links" href="#"><li><p><span class="glyphicon glyphicon-cog"></span> Settings</p></li></a>
+                       </ul>
+                        <button type="button" class="btn btn-info"><span style="margin-left:-10;" class="glyphicon glyphicon-play"></span>View More </button>
+                    </div>
+                </aside>
+                <div id="main-page" class="float-left">
+                    
+                    <div class="center-title">PUBLIC PROFILE</div>
+                    <div id="center-page-options">
+                        <div class="center-page-option-items">
+                            <p style="font-size:40%;">NEW STATUS</p>
+                            <span class="glyphicon glyphicon-comment"></span> 
+                        </div>
+                        <div class="center-page-option-items">
+                            <p style="font-size:40%;">NEW PHOTO</p>
+                            <span class="glyphicon glyphicon-picture"></span> 
+                        </div>
+                        <div class="center-page-option-items">
+                            <p style="font-size:40%;">NEW LOCATION</p>
+                            <span class="glyphicon glyphicon-map-marker"></span> 
+                        </div>
+                        <div class="center-page-option-items">
+                            <p style="font-size:40%;">NEW BLOG POST</p>
+                            <span class="glyphicon glyphicon-pencil"></span> 
+                        </div>
+                        
+                    </div>
+                    <div class="center-title">STATUS</div>
+                        <div class="status">
+                            <p style="font-size:40%;">"I don't have a Twitter account, so I just carry around a megaphone to announce what I'm doing at random times. So far I've got 3 followers - but I think 2 of them are cops."</p>
+                        </div>
+                    <div class="center-title">ONLINE GALLERY</div>
+                    <div id="center-page-photos">
+                        <div class="center-page-photo-items">
+                            <img src="/images/image1.jpg" height="95%">
+                        </div>
+                        <div class="center-page-photo-items">
+                            <img src="/images/image2.jpg" height="95%">
+                        </div>
+                        <div class="center-page-photo-items">
+                            <img src="/images/image3.jpg" height="95%">
+                        </div>
+                        <div class="center-page-photo-items">
+                            <img src="/images/image4.jpg" height="95%">
+                        </div>
+                        <div class="center-page-photo-items">
+                            <img src="/images/image5.jpg" height="95%">
+                        </div>
+                        <div class="center-page-photo-items">
+                            <img src="/images/image6.jpg" height="95%">
+                        </div>
+                        <div class="center-page-photo-items">
+                            <img src="/images/image7.jpg" height="95%">
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="center-title">LOCATION</div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3901.69324853813!2d0.09986969999999509!3d51.55821059999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2suk!4v1579437739490!5m2!1sen!2suk" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                        <p id="demo"></p>
+                    <div class="center-title">BLOG</div>
+                        <div class="blog">
+                            <h4 style="text-align: center; color:deepskyblue;">TOP 5 PRELIMINARY THOUGHT TRAINING PRACTICES.</h4>
+                            <p style="margin-top:10px;text-align: center; font-size:30%; color:chartreuse;">19<sup>th</sup> January 2020</p>
+                            <p style="text-align: justify; margin-top:10px;font-size:40%; color:white;">Thought can be elusive and deeply entertained with our ego. Our own thoughts are personal and often difficult to reject. Bad thinking is the source of many problems but what defines bad thinking is widely misunderstood. Bad thinking can be contagious and rewarded in social groups such that it is unrecognisable from within the group. It is everybody’s duty to learn to recognise inaccurate thinking in their own minds and rectify their thinking habits.</p>
+                            <details>
+                                <p><summary class="summary">Read More...</summary></p>
+                                <h5>Thinking is very much like coding.</h5>
+                                <p>The structure is available to everybody but the way people write code and the way people think can be very different. There are different way to write code to achieve particular results but the code generally will not work if it is written wrong, or incomplete, or solving the wrong problem.</p>
+
+<p>Much like thinking – if the problems you choose to solve are not the correct ones, or if the conclusions you arrive at don’t represent the information you consume or if you don’t think things through at all, your thought will be at a tangent going off in its own direction.</p>
+
+<p>Coding is a mixture of variables, objects, attributes, values, functions, conditionals, Booleans, and mathematical operators. Our brain has a way of thinking that uses all the same ideas and it is the way that we define variables, and assign attributes, and design functions within our mind that dictates the quality and accuracy of our perceptual models and behavioural actions.</p>
+
+<h5>Building accurate mental models.</h5>
+<p>If the model of the outside world we perceive in our mind is incongruent with the actual external world our senses are feeding us data about, then the accuracy of our understanding, predictions and risk assessments will be skewed. This representative model we build of the world around us is the most important creative project everybody undertakes and it is our thought that shapes it. Our thought is a malleable method for managing and amalgamating information and it is likely nobody has perfected it.</p>
+
+                                <h5>Thought Training Strategies.</h5>
+<p>You can think whatever and however you like- but if you want to benefit from information management and analytical strategies developed through the scientific method then you could adopt the following strategies into your daily thought training routine.
+
+                                <h5>1. Accuracy of Perception (AP)</h5>
+
+<p>The level of accuracy exhibited by your mental models of people, objects, or concepts in the environment is largely down to what you choose to notice and the weighting you prescribe to each attribute you perceive.
+
+<p>It is more or less impossible to notice everything about anything in the external environments once your minds eye will be locking on and analysing things that you have subconsciously defined as salient, important, interesting, funny, or informative.
+
+<p>Without realising you will filter out only the information that supports your ideas, opinions, goals, ambitions and even if you generally try to have a balanced mindset your mind will always have a bias. This is because your opinions live in an area of your mind that does not precede your reticular activation system (the area of the brain responsible for directing attention). It is this part of the brain which chooses which information you see and use to inform your thought processes.
+
+<p>The only way to influence the reticular activation system is to recondition your mind to chase alternative goals. The following strategy will reprogram your attention and reduce any confirmation biases in your thought patterns.
+
+                                <h5>STRATEGY:</h5>
+
+<p>Pick a person, an object, a place, or an idea.
+List either on paper or in your mind everything you know about it.
+Go back over the list and decided whether you really know these things or if you are merely trusting a third party.
+Analyse your placement of third party trust for each instance and decide whether it is misplaced.
+Over time try to find more credible sources or try to find out information for yourself.
+                               
+                                 <h5>2. Data Mapping (DM)</h5>
+                
+<p>Our brains have a huge number of maps for perceiving various aspects of our environment. Most notably, in the visual cortex, we have hundreds of maps; one for edges, one for space, one for corners, on for trajectories, one for speeds, and so on. Later the brain integrates the sensory information into a final but always changing percept which could be understood as overlaying the maps. Linking the location tagged attributes together to form instances of objects, people, places or events.
+
+<p>The more maps you have for describing things then the more breadth of information you will have available to you leading to greater precision of perception.
+
+                                <h5>STRATEGY</h5>
+
+<p>Look back at the things you studied in the AP (Accuracy of Perception) section
+Try to identify perspectives or information that you do not have available to you.
+Ask yourself why you do not know this. Sometimes it is not necessary to know but if you are basing your model of reality or decisions upon information about this thing, or this person, place, or event, then you should be determined to gain data for as many available maps as possible.
+Try to discover this new information or bear in mind that it is missing. Knowing and being aware of what you do not know is an important step for acquiring new knowledge.
+Learn to utilise this strategy, DM, whenever you encounter something new and apply it to things that are important considerations during decision making.
+                           
+                                <h5>3. Perceptual Integration (PI)</h5>
+                           
+<p>Learning to integrate information you have learned is mostly and usually an automated process in your brain but this does not mean you are doing it properly. It is a functionality that you have built during you life that has become automated over time. This does not mean that you cannot reprogram it, update it, and improve it over time.
+
+<p>Actually, this is what most people are always trying to do but the most common strategy is trial and error. This can work well but not if the general consensus is wrong or common knowledge is incorrect or misleading.
+
+<p>Our brain is a valuable asset and misleading people is a huge industry. That is why you should implement this strategy for integrating the information you have accurately discovered and determined to be true.
+
+                                <h5>STRATEGY</h5>
+
+<p>Every time you collect new knowledge, information, or even skills, make sure you consider its relationship with the information you already know.
+<p>If it is additional information that leads to a greater breadth of of understanding then simply try to remember it by associating as many details of the information with as many related things in your mind, as you can.
+<p>If the information is stepping go on the toes of what you already know, such that is is incongruent (eg. Distance to the shop is ‘2 miles’ or ‘3 miles’) then you must consider the validity of each source (AP strategy). Think of the information comparison like a balancing act where the reliability is analogous to the informations weight. Work out which information is more reliable and take that as the most likely truth. (eg. The shop is [2m x 80%] + [1 x 20%] = 1.8 miles)
+<p>If the information is entirely different and conflicting then one is likely incorrect. Try to work out which source is least valid and which information is globally incongruent.
+
+                                <h5>4. Canvas Stretching</h5>
+                           
+<p>Preparing your mind and creating space for new information is just as important as collecting knowledge. Without the space you will not remember it and it is likely you will not even notice the information if it doesn’t have somewhere to plug into.
+
+<p>Canvas stretching involves an eyes closed exercise using mostly the visual cortex. The idea is to extend the foundation of your mental maps to allow them to contain more information readily.
+
+                                <h5>STRATEGY</h5>
+
+<p>Close your eyes and imagine the room you are in. Try to build the overall shape of the room, position the doors, windows and then the furniture. Insert the people and objects into the scene before all the small bits and pieces.
+<p>Keep building the model of your environment with absolutely no reference other than your memory. Make sure you are colouring things correctly and sizing things proportionally while getting as many details correct as possible.
+<p>Quickly you will discover you limitations. Maybe you can’t remember the colours, or the amounts, or certain faces, the clothes people were wearing. Maybe you can’t hold the model in your mind as you build it. Maybe you can’t actually visualise like this at all.
+<p>Canvas stretching is taking this limitation and targeting it with targeted training. Do this by closing your eyes and try to build the model of your environment with a special focus on your limitation from start to finish.
+<p>Some limitations are global (retaining the imaginary model as you build it) and affect the entire visualisation. Practice the visualisation often to improve these.
+<p>Some limitations are specific (eg. remembering the colour of items). Train these limitations by specifically visualising all the colours of everything in the scene as precisely as you can.
+<p>This technique doesn’t have to be used for environmental perception. You can test your accuracy and range of completion for visualising anything from academic subject topics, periods of history (…or episodic memory), stories, ideas, speeches, and so on.
+
+                                <h5>5. Conceptual Sketching</h5>
+                           
+<p>You working memory is incredibly important for accuracy and correct solutions during thinking processes. Holding dynamic items in your mind relationally is a great way to build models in your working memory space.
+
+<p>Whenever I imagine objects in my mind, without borrowing images from my memory, I build the frame with thin light blue lines like a blueprint. If I visualise the blueprint for a mechanism then I can slowly see how the parts would move and function together.
+
+                                <h5>STRATEGY</h5>
+
+<p>Practice drawing 3 dimensional objects line by line in your mind with your eyes closed.
+Build the image from all angles and explore it.
+<p>Try to visualise the physics of dynamic or moving parts.
+<p>Scale the image to the largest size imaginable or the smallest size imaginable (…from a single relative perspective).
+<p>Practice this visualisation every day and it will help you to hold ideas and concepts in your working memory. With time, it will increase the capacity of your working memory space.
+                           
+<p>Preliminary thought processes are mainly about information collection, memory, organisation and working memory. There are plenty more strategies that can be utilised to improve various aspects but the methods above are fairly general and can be applied within any range or scope making them incredibly versatile.
+
+<p>Every day you should spend at least 15 minutes thinking, stretching and expanding your mind in a controlled way to create space, realise limitations, train limitations and working memory consistency and control.
+
+<em>Thank You For Reading This Article!
+
+If you enjoyed reading this or would like to learn more about this particular topic please click through and explore my website where I post 4 articles every week on related topics!</em>
+
+                            </details>
+                        </div>
+                        
+                        <div class="blog">
+                            <h4 style="text-align: center; color:deepskyblue;">4 MOST EFFECTIVE METHODS FOR BECOMING HYPER-PRODUCTIVE.</h4>
+                            <p style="margin-top:10px;text-align: center; font-size:30%; color:chartreuse;">19<sup>th</sup> January 2020</p>
+                            <p style="text-align: justify; margin-top:10px;font-size:40%; color:white;">Whether you are interested in being more productive at work or simply in your personal life the methods in this article will definitely assist you. Productivity is about the quality and quantity of what you get done every day. Increasing both of these together is the route to hyper-productivity. But getting your mental and physical energy levels regulated and balanced consistently can be tough.</p>
+                            <details>
+                                <p><summary class="summary">Read More...</summary></p>
+                                <h5>Thinking is very much like coding.</h5>
+                            </details>
+                        </div>
+                        <div class="blog">
+                            <h4 style="text-align: center; color:deepskyblue;">TOP 5 AMAZING FREEDIVING LOCATION IN THE SOUTH OF IRELAND.</h4>
+                            <p style="margin-top:10px;text-align: center; font-size:30%; color:chartreuse;">19<sup>th</sup> January 2020</p>
+                            <p style="text-align: justify; margin-top:10px;font-size:40%; color:white;">Whether you are interested in being more productive at work or simply in your personal life the methods in this article will definitely assist you. Productivity is about the quality and quantity of what you get done every day. Increasing both of these together is the route to hyper-productivity. But getting your mental and physical energy levels regulated and balanced consistently can be tough.</p>
+                            <details>
+                                <p><summary class="summary">Read More...</summary></p>
+                                <h5>Thinking is very much like coding.</h5>
+                            </details>
+                        </div>
+                        <button type="button" class="btn btn-info">View More Blog Posts...</button>
+                </div>
+                <aside class="float-right">
+                    <div class="title"><p id="detail-title">Your Details</p> <button  class="btn btn-update float-right" type="button">Update</button></div>
+                    <div id="your-details">
+                        <div class="float-left" id="main-details" width=50%;>
+                            <h6>Name:</h6> <p style="margin-bottom:4px;">Thomas Fahey.</p>
+                            <h6>Gender:</h6> <p style="margin-bottom:4px;">Male.</p>
+                            <h6>Birthday:</h6> <p style="margin-bottom:4px;">16<sup>th</sup> December, 1992.</p>
+                        </div>
+                        <img class="float-right" src="/images/profile.JPG" width=50%;>
+                    </div><br><br><br><br><br><br><br><br>
+                    <hr style="border-color:rgba(50,50,100,0.6); margin-top:3px;">
+                        <h6>Bio:</h6> <p style="margin-bottom:4px;">I am a front-end web developer with a great deal of experience in design and engineering. I have a degree in Psychology and Statistics from the University of Southampton where I was the Academic President of Education. The psychology of web design is often overlooked but I consider this a central concept.</p><br>
+                    <h6>History:</h6> 
+                        <table id="employment-table">
+                            <tr>
+                                <td class="table-columns"><p style="display:inline;">POSITION</p></td>
+                                <td class="table-columns"><p style="display:inline;">DURATION</p></td>
+                            </tr>
+                            <tr>
+                                <td>Qualified Electrician contracted by the London Fire Brigade.</td>
+                                <td class="table-columns">3 Years</td>
+                            </tr>
+                            <tr>
+                                <td>BSc. Psychology and Statistics in the University of Southampton.</td>
+                                <td class="table-columns">3 Years</td>
+                            </tr>
+                            <tr>
+                                <td>Trainee Civil Engineer working for Murphy and Sons.</td>
+                                <td class="table-columns">2 Years</td>
+                            </tr>
+                        </table>
+                    
+
+                </aside>
+            </div>
+            
+        </div>
+        <script>
+            var x = document.getElementById("demo");
+
+            function getLocation() {
+              if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+              } else { 
+                x.innerHTML = "Geolocation is not supported by this browser.";
+              }
+            }
+            function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+            function showPosition(position) {
+              var latlon = "Latitude: " + position.coords.latitude + 
+              "<br>Longitude: " + position.coords.longitude;
+
+
+              var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+              var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=
+              "+latlon+"&zoom=14&size=400x300&sensor=false&key=YOUR_KEY";
+
+              document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+            }
+        </script>
+    </body>
+</html>
